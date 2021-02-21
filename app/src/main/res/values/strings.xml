@@ -8,4 +8,8 @@
     <string name="project1">2021年3月 + 华北地区项目</string>
     <string name="project2">2021年3月 + 广东地区项目</string>
     <string name="project3">2021年3月 + 香港地区项目</string>
+
+    <string name="business1">意大利进口红酒业务</string>
+    <string name="business2">法国进口红酒业务</string>
+    <string name="business3">西班牙进口红酒业务</string>
 </resources>
