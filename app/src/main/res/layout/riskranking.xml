@@ -27,11 +27,11 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/riskAlarmingButton3"
+        app:layout_constraintStart_toEndOf="@+id/riskalarmButton5"
         app:srcCompat="@drawable/s" />
 
     <ImageButton
-        android:id="@+id/riskAlarmingButton3"
+        android:id="@+id/riskalarmButton5"
         android:layout_width="78dp"
         android:layout_height="81dp"
         android:layout_marginStart="8dp"
@@ -80,7 +80,7 @@
         app:srcCompat="@drawable/flush" />
 
     <ImageButton
-        android:id="@+id/imageButton6"
+        android:id="@+id/riskrankingButton5"
         android:layout_width="84dp"
         android:layout_height="81dp"
         android:layout_marginStart="16dp"

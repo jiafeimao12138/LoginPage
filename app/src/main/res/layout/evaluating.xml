@@ -14,11 +14,11 @@
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/evaluatingButton3"
+        app:layout_constraintStart_toEndOf="@+id/evaluatingButton2"
         app:srcCompat="@drawable/fo" />
 
     <ImageButton
-        android:id="@+id/riskAlarmingButton"
+        android:id="@+id/riskalarmButton4"
         android:layout_width="78dp"
         android:layout_height="81dp"
         android:layout_marginStart="8dp"
@@ -45,23 +45,23 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/riskreportingButton4"
         android:layout_width="79dp"
         android:layout_height="81dp"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/riskAlarmingButton"
+        app:layout_constraintStart_toEndOf="@+id/riskalarmButton4"
         app:srcCompat="@drawable/s" />
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/evaluatingButton4"
         android:layout_width="110dp"
         android:layout_height="81dp"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageButton2"
+        app:layout_constraintStart_toEndOf="@+id/riskreportingButton4"
         app:srcCompat="@drawable/tx" />
 
     <ImageView

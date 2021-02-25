@@ -13,14 +13,16 @@ public class RiskReportingActivity extends AppCompatActivity {
     ImageButton button1 = null;
     ImageButton button2 = null;
     ImageButton button3 = null;
+    ImageButton button4 = null;
     @SuppressLint("WrongViewCast")
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.riskreporting);
-        button1 = (ImageButton)findViewById(R.id.RiskAlarmingButton);
-        button2 = (ImageButton)findViewById(R.id.evaluatingButton3);
+        button1 = (ImageButton)findViewById(R.id.riskalarmButton2);
+        button2 = (ImageButton)findViewById(R.id.evaluatingButton2);
         button3 = (ImageButton)findViewById(R.id.ascButton);
+        button4 = (ImageButton)findViewById(R.id.riskrankingButton2);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -42,6 +44,14 @@ public class RiskReportingActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent();
                 intent.setClass(RiskReportingActivity.this,RiskReportingFileActivity.class);
+                startActivity(intent);
+            }
+        });
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.setClass(RiskReportingActivity.this,RiskRankingActivity.class);
                 startActivity(intent);
             }
         });

@@ -7,18 +7,18 @@
     android:layout_height="match_parent">
 
     <ImageButton
-        android:id="@+id/riskrankingButton3"
+        android:id="@+id/riskrankingButton2"
         android:layout_width="84dp"
         android:layout_height="81dp"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/evaluatingButton3"
+        app:layout_constraintStart_toEndOf="@+id/evaluatingButton2"
         app:srcCompat="@drawable/fo" />
 
     <ImageButton
-        android:id="@+id/evaluatingButton3"
+        android:id="@+id/evaluatingButton2"
         android:layout_width="110dp"
         android:layout_height="81dp"
         android:layout_marginStart="16dp"
@@ -26,7 +26,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/imageButton3"
+        app:layout_constraintStart_toEndOf="@+id/riskreportingButton2"
         app:srcCompat="@drawable/t" />
 
     <TextView
@@ -101,7 +101,7 @@
         app:srcCompat="@drawable/haox" />
 
     <ImageButton
-        android:id="@+id/RiskAlarmingButton"
+        android:id="@+id/riskalarmButton2"
         android:layout_width="78dp"
         android:layout_height="81dp"
         android:layout_marginStart="8dp"
@@ -113,13 +113,13 @@
         app:srcCompat="@drawable/riskalarm" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/riskreportingButton2"
         android:layout_width="79dp"
         android:layout_height="81dp"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/RiskAlarmingButton"
+        app:layout_constraintStart_toEndOf="@+id/riskalarmButton2"
         app:srcCompat="@drawable/riskreporting" />
 
     <ImageView

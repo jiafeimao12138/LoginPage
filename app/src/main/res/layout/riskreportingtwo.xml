@@ -6,19 +6,48 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <EditText
+        android:id="@+id/editTextTextMultiLine2"
+        android:layout_width="250dp"
+        android:layout_height="83dp"
+        android:layout_marginBottom="192dp"
+        android:background="@android:drawable/edit_text"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="文件描述......"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton18"
+        app:layout_constraintVertical_bias="0.604" />
+
     <ImageButton
-        android:id="@+id/riskrankingButton4"
+        android:id="@+id/imageButton18"
+        android:layout_width="325dp"
+        android:layout_height="111dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginBottom="356dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12"
+        app:srcCompat="@drawable/file" />
+
+    <ImageButton
+        android:id="@+id/riskrankingButton3"
         android:layout_width="84dp"
         android:layout_height="81dp"
         android:layout_marginStart="8dp"
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/EvaluatingButton4"
+        app:layout_constraintStart_toEndOf="@+id/evaluatingButton3"
         app:srcCompat="@drawable/fo" />
 
     <ImageButton
-        android:id="@+id/riskAlarmingButton2"
+        android:id="@+id/riskalarmButton3"
         android:layout_width="78dp"
         android:layout_height="81dp"
         android:layout_marginStart="8dp"
@@ -76,22 +105,22 @@
         app:srcCompat="@drawable/headtwo" />
 
     <ImageButton
-        android:id="@+id/imageButton8"
+        android:id="@+id/riskreportingButton3"
         android:layout_width="79dp"
         android:layout_height="81dp"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/riskAlarmingButton2"
+        app:layout_constraintStart_toEndOf="@+id/riskalarmButton3"
         app:srcCompat="@drawable/riskreporting" />
 
     <ImageButton
-        android:id="@+id/EvaluatingButton4"
+        android:id="@+id/evaluatingButton3"
         android:layout_width="110dp"
         android:layout_height="81dp"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageButton8"
+        app:layout_constraintStart_toEndOf="@+id/riskreportingButton3"
         app:srcCompat="@drawable/t" />
 </androidx.constraintlayout.widget.ConstraintLayout>
