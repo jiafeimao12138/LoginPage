@@ -7,11 +7,10 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/textView52"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="65dp"
         android:background="#C576D3"
-        android:text="供应链业务"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="36sp"
@@ -20,11 +19,24 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="供应链业务"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textView52"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <Button
         android:id="@+id/button"
         android:layout_width="137dp"
         android:layout_height="62dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="7dp"
         android:text="个性化配置"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         android:textSize="18sp"
@@ -32,7 +44,7 @@
         app:iconPadding="28dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+        app:layout_constraintTop_toBottomOf="@+id/textView52" />
 
     <TextView
         android:id="@+id/textView10"
