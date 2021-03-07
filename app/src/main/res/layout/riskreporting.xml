@@ -83,15 +83,16 @@
         android:id="@+id/textView5"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
         android:background="#689C27B0"
         android:text="成员列表"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="72dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView51" />
 
     <ImageView
         android:id="@+id/imageView2"
