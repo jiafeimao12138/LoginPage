@@ -4,7 +4,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
@@ -17,6 +17,15 @@
             </intent-filter>
         </activity>
         <activity android:name=".MyBusinessCardActivity"/>
+        <activity android:name=".FriendsMainActivity"/>
+        <activity android:name=".FriendsChainA"/>
+        <activity android:name=".BusinessMain"/>
+        <activity android:name=".BusinessFinance"/>
+        <activity android:name=".FriendsUpload"/>
+        <activity android:name=".FriendsMemberList"/>
+        <activity android:name=".FriendsChatList"/>
+        <activity android:name=".FriendsChatPrivate"/>
+        <activity android:name=".FriendsChatCommon"/>
     </application>
 
 </manifest>

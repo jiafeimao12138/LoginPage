@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent();
-                intent.setClass(MainActivity.this,MyBusinessCardActivity.class);
+                intent.setClass(MainActivity.this,FriendsMainActivity.class);
                 startActivity(intent);
             }
         });

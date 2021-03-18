@@ -5,15 +5,18 @@
     <item
         android:id="@+id/navigation_friends"
         android:icon="@drawable/ic_friends"
+        android:onClick="gotoFriends"
         android:title="@string/title_friends" />
 
     <item
         android:id="@+id/navigation_business"
         android:icon="@drawable/ic_business"
+        android:onClick="gotoBusiness"
         android:title="@string/title_business" />
 
     <item
         android:id="@+id/navigation_user"
         android:icon="@drawable/ic_user"
+        android:onClick="gotoUser"
         android:title="@string/title_user" />
 </menu>
